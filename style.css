@@ -29,9 +29,27 @@ body{
     color: var(--branco-principal);
     display: block;
     text-decoration: none;
+    margin-bottom: 1em;
 }
 
 .container_aviso{
     font-size: 14px;
     color: var(--cinza-secundario)
+}
+
+
+.container__titulo{    font-size: 28px;
+    font-weight: 700;
+}
+
+
+.container-imagem{
+    margin: 1em 0 2em 0;
+}
+
+
+
+
+.container-div{
+    margin: 0 6em;
 }
