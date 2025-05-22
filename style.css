@@ -20,6 +20,7 @@ body{
     display: grid;
     grid-template-columns: 33% 33% 33%;
     
+    
 }
 
 .container-botao{
@@ -52,4 +53,21 @@ body{
 
 .container-div{
     margin: 0 6em;
+}
+
+.secundario--imagem{
+    width: 80%;
+}
+
+.secundario{
+    align-items:center;
+    margin: 0 5em;
+}
+.descricao--titulo{
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 0. 2em;
+}
+.descricao--texto{
+    color: var(--cinza-secundario);
 }
