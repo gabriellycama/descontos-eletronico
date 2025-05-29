@@ -56,6 +56,10 @@ body{
     margin: 0 6em;
 }
 
+.secundario {
+    grid-template-columns: 50% 50%;
+}
+
 .secundario--imagem{
     width: 80%;
 }
