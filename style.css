@@ -39,7 +39,8 @@ body{
 }
 
 
-.container__titulo{    font-size: 28px;
+.container__titulo{    
+    font-size: 28px;
     font-weight: 700;
 }
 
@@ -70,4 +71,25 @@ body{
 }
 .descricao--texto{
     color: var(--cinza-secundario);
+}
+
+.secundario__botao{
+    display: inline-block;
+    margin-top: 1em;
+}
+.container__descricao{
+    padding: 2em;
+}
+
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+.dispositivos{
+    text-align: center;
+}
+.dispositivos__titulo{
+    font-size: 46px;
 }
